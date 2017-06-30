@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63693436338",
+    "firebase_url": "https://documentaccessapp.firebaseio.com",
+    "project_id": "documentaccessapp",
+    "storage_bucket": "documentaccessapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63693436338:android:498be7a10bb1db6c",
+        "android_client_info": {
+          "package_name": "com.example.earthshaker.documentaccessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63693436338-pghauorkerdnn5d8mp2ica1so1icuc4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.earthshaker.documentaccessapp",
+            "certificate_hash": "747c39b63781e925a569437187980b6cae1745a6"
+          }
+        },
+        {
+          "client_id": "63693436338-5v2eda7lhpd7afg8qkg8a8q83u9cgi28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo0nSH_vYDkZYhpO9_mJRYa_Gy9RgqlKU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63693436338-5v2eda7lhpd7afg8qkg8a8q83u9cgi28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.earthshaker.documentaccessapp.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/withoutAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Default Documents"
+        android:padding="10dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/withAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Exclusive Documents"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/searchMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Enter mail id"
+        android:padding="10dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/authenticate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Press for authentication"/>
+</LinearLayout>
